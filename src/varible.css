@@ -1,0 +1,41 @@
+/* Varible */
+
+:root {
+    --main-bg-color: #F5F6F6;
+    --main-color: #1DB954;
+    --main-color-alt: #61e017;
+    --main-color-dark: #003865;
+
+    --main-transition-duration: 0.5s;
+    --main-padding:100px;
+    --section-background: #ececec;
+    --aColor:#fafafa;
+    --aColor_hover:rgb(238, 100, 49);
+    --sectionColor2:#fff;
+    --textColor:#777;
+}
+
+/* Rules */
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Cairo", sans-serif;
+    
+    box-sizing: border-box;
+    
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+button{
+  cursor: pointer;
+}

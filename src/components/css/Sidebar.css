@@ -1,0 +1,24 @@
+
+.side-bar{
+  position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid #aaa;
+    border-left:none;
+    height: 100%;
+  }
+  .side-bar ul li{
+    padding: 10px;
+    cursor: pointer;
+    color :var(--main-color-dark);
+    font-size:2em;
+    text-transform: capitalize;
+    transition: .1s linear;
+  }
+.side-bar ul li:hover{
+   background-color: #aaaaaa42;
+    
+}
