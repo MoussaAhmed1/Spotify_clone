@@ -1,0 +1,23 @@
+.music-main-section .music-main-section-content{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    justify-content: center;
+    align-items: flex-end;
+    align-content: end;
+ 
+ } 
+
+ .music-main-section  input[type="search"]{
+    padding: 9px;
+    border-radius: 17px;
+    border: #3333333b 1px solid;
+    margin: 20px auto;
+    width: 90%;
+    cursor: pointer;
+ }
+
+ .music-main-section  input[type="search"]:focus{
+    outline: var(--main-color) 1px solid;
+    width: 99%;
+ }

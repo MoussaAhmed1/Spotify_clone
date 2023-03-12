@@ -15,6 +15,7 @@
     --textColor:#777;
 }
 
+
 /* Rules */
 
 *{
@@ -22,7 +23,7 @@
 }
 
 body {
-    font-family: "Cairo", sans-serif;
+    font-family: "Cairo", sans-serif !important; 
     
     box-sizing: border-box;
     
@@ -39,3 +40,38 @@ body {
 button{
   cursor: pointer;
 }
+
+
+/* MyContainer */
+.my-container
+ {
+  padding:25px;
+  margin-left:auto;
+  margin-right:auto;
+ }
+ /* small */
+ @media(min-width:768px)
+ {
+   .my-container
+   {
+     width:750px;
+   }
+ 
+ }
+ /* medium */
+ @media(min-width:992px)
+ {
+   .my-container
+   {
+     width:970px;
+   }
+ }
+ /* larg */
+ 
+ @media(min-width:1200px)
+ {
+   .my-container
+   {
+     width:1170px;
+   }
+ }

@@ -7,7 +7,7 @@ let musicDB = [
       lang: "ENGLISH",
       timesPlayed: 0,
       type: "electronic",
-      musicName: "../assets/img/Clarx - Shakedown [NCS Release].mp3",
+      musicFile: "../assets/img/Clarx - Shakedown [NCS Release].mp3",
      
   },
   {
@@ -18,7 +18,7 @@ let musicDB = [
       lang: null,
       timesPlayed: 0,
       type:"instrumental",
-      musicName: "../assets/img/mixkit-games-worldbeat-466.mp3",
+      musicFile: "../assets/img/mixkit-games-worldbeat-466.mp3",
      
   },
   {
@@ -29,7 +29,7 @@ let musicDB = [
       lang: "ENGLISH",
       type: "electronic",
       timesPlayed: 0,
-      musicName: "ROY KNOX -  Over My Head (Feat. Mike Robert) [NCS Release].mp3",
+      musicFile: "ROY KNOX -  Over My Head (Feat. Mike Robert) [NCS Release].mp3",
      
   },
   {
@@ -40,7 +40,7 @@ let musicDB = [
       lang: "ENGLISH",
       timesPlayed: 0,
       type: "electronic",
-      musicName: "Subtact - Want You (feat. Sara Skinner) [NCS Release].mp3",
+      musicFile: "Subtact - Want You (feat. Sara Skinner) [NCS Release].mp3",
      
   },
   {
@@ -51,7 +51,7 @@ let musicDB = [
       lang: "ENGLISH",
       timesPlayed: 0,
       type: "electronic",
-      musicName: "Midranger - Apocalypse [NCS Release].mp3",
+      musicFile: "Midranger - Apocalypse [NCS Release].mp3",
      
   },
   {
@@ -62,7 +62,7 @@ let musicDB = [
       lang: "ENGLISH",
       timesPlayed: 0,
       type: "electronic",
-      musicName: "N3WPORT - Alive (feat. Neoni) [NCS Release].mp3",
+      musicFile: "N3WPORT - Alive (feat. Neoni) [NCS Release].mp3",
      
   },
   {
@@ -73,7 +73,7 @@ let musicDB = [
       lang: "ENGLISH",
       timesPlayed: 0,
       type:"instrumental",
-      musicName: "impact.mp3",
+      musicFile: "impact.mp3",
      
   },
   {
@@ -84,7 +84,7 @@ let musicDB = [
       lang: "ENGLISH",
       timesPlayed: 0,
       type:"instrumental",
-      musicName: "impact2.mp3",
+      musicFile: "impact2.mp3",
      
   },
   {
@@ -95,7 +95,7 @@ let musicDB = [
       lang: "ENGLISH",
       timesPlayed: 0,
       type: "electronic",
-      musicName: "Heuse & Tom Wilson - Ignite [NCS Release].mp3",
+      musicFile: "Heuse & Tom Wilson - Ignite [NCS Release].mp3",
      
   }
 ];
