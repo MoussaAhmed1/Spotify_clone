@@ -1,7 +1,6 @@
 import { legacy_createStore as createStore } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
-import musicReducer from './Reducers/musicReducer';
-
-const store = createStore(musicReducer,composeWithDevTools());
+import reducers from './Reducers/combineReducers';
+const store = createStore(reducers,composeWithDevTools());
 
 export default store;

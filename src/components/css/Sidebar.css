@@ -10,6 +10,10 @@
     border-left:none;
     height: 100vh;
   }
+
+  .side-bar ul li{
+    
+  }
   .side-bar ul li{
     padding: 10px;
     cursor: pointer;
@@ -19,6 +23,10 @@
     transition: .1s linear;
   }
 .side-bar ul li:hover{
-   background-color: #aaaaaa42;
-    
+  background-color: #aaaaaa42;
+  
+}
+
+.side-bar ul li i{
+  margin-left: 15px;
 }

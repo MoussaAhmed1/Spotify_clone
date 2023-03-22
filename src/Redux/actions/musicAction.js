@@ -18,3 +18,15 @@ export const setPlaylist = (data)=>{
         payload:data
     }
 }
+export const SetCurrent = (data)=>{
+    return{
+        type:"SET_CURRENT_MUSIC",
+        payload:data
+    }
+}
+export const SetIsPlayed= data=>{
+    return{
+        type:"IS_PLAYED",
+        payload:data
+    }
+}

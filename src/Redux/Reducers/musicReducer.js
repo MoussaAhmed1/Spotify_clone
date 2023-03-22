@@ -2,9 +2,9 @@ import musicDB from './../../assets/db/music';
 
 const intial = {
     musicList:musicDB,
-    favorites:[],
-    currentMusicPlayed:null,
-    playList:[]
+    currentMusicPlayed:musicDB[0],
+    playLists:{},
+    isPlayed:false,
 }
 
 const  musicReducer = (state=intial,action)=>{
@@ -17,7 +17,7 @@ const  musicReducer = (state=intial,action)=>{
         case 'SET_FAVORITES':
             return {
                ...state,
-                favorites:action.payload
+               currentMusicPlayed:action.payload
             }
             case 'SET_CURRENT_MUSIC':
                 return{
@@ -29,6 +29,11 @@ const  musicReducer = (state=intial,action)=>{
                         ...state,
                         playList:action.payload
                     }
+                    case "IS_PLAYED":
+                        return{
+                            ...state,
+                            isPlayed:action.payload
+                        }
                 default:
                     return state;
 }

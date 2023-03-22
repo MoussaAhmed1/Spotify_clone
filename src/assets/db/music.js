@@ -7,7 +7,8 @@ let musicDB = [
       lang: "ENGLISH",
       timesPlayed: 0,
       type: "electronic",
-      musicFile: "../assets/img/Clarx - Shakedown [NCS Release].mp3",
+      musicFile: "Clarx - Shakedown [NCS Release].mp3",
+      isLiked:false,
      
   },
   {
@@ -18,7 +19,8 @@ let musicDB = [
       lang: null,
       timesPlayed: 0,
       type:"instrumental",
-      musicFile: "../assets/img/mixkit-games-worldbeat-466.mp3",
+      musicFile: "mixkit-games-worldbeat-466.mp3",
+      isLiked:false,
      
   },
   {
@@ -30,6 +32,7 @@ let musicDB = [
       type: "electronic",
       timesPlayed: 0,
       musicFile: "ROY KNOX -  Over My Head (Feat. Mike Robert) [NCS Release].mp3",
+      isLiked:false,
      
   },
   {
@@ -41,6 +44,7 @@ let musicDB = [
       timesPlayed: 0,
       type: "electronic",
       musicFile: "Subtact - Want You (feat. Sara Skinner) [NCS Release].mp3",
+      isLiked:false,
      
   },
   {
@@ -52,6 +56,7 @@ let musicDB = [
       timesPlayed: 0,
       type: "electronic",
       musicFile: "Midranger - Apocalypse [NCS Release].mp3",
+      isLiked:false,
      
   },
   {
@@ -63,6 +68,7 @@ let musicDB = [
       timesPlayed: 0,
       type: "electronic",
       musicFile: "N3WPORT - Alive (feat. Neoni) [NCS Release].mp3",
+      isLiked:false,
      
   },
   {
@@ -74,6 +80,7 @@ let musicDB = [
       timesPlayed: 0,
       type:"instrumental",
       musicFile: "impact.mp3",
+      isLiked:false,
      
   },
   {
@@ -85,6 +92,7 @@ let musicDB = [
       timesPlayed: 0,
       type:"instrumental",
       musicFile: "impact2.mp3",
+      isLiked:true,
      
   },
   {
@@ -96,6 +104,7 @@ let musicDB = [
       timesPlayed: 0,
       type: "electronic",
       musicFile: "Heuse & Tom Wilson - Ignite [NCS Release].mp3",
+      isLiked:true,
      
   }
 ];

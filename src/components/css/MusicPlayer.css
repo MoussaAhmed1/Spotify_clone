@@ -1,5 +1,50 @@
 .music-player{
     position: fixed;
     width: 100%;
-    padding: 5px;
+    bottom: 0;
+    background-color: aliceblue;
+    padding: 15px;
+    z-index: 10;
+    
+}
+.music-player i{
+    cursor: pointer;
+}
+.music-player .music-player-content{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    /* flex-direction: row;
+    align-items: end;
+    justify-content: space-between; */
+}
+.music-player .music-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+}
+.music-player .Music-player-controls{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.music-player .music-info i.fa-solid.fa-heart {
+color: var(--main-color);
+}
+
+.music-player .music-info img{
+    max-width: 80px;
+}
+.music-player .Music-player-controls i{
+    padding: 15px;
+    font-size: 1.5em;
+}
+.music-player .Music-player-controls i:first-child {
+transform: rotateY(180deg);
+}
+.music-player .Music-player-controls input[type="range"]:first-child{
+    width: 100%;
 }
