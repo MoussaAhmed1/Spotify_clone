@@ -3,18 +3,26 @@ const init = {
     password:"",
     img:null,
     musicLists:{},
-    likes:[]
+    likes:[],
+    playlists:[{id:0,name:"AtHome",songs:[]}]
 }
 
 const userReducer = (state=init,action)=>{
-    switch(action)
+    switch(action.type)
     {
         case"Set_user":
         return{
             state:action.payload,            
+        }
+
+        case"ADD_PLAYLIST":
+        return{
+            ...state,
+            playlists:action.payload,            
         }
         
         default:
             return state;
     }
 }
+export default userReducer;

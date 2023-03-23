@@ -11,8 +11,9 @@
     height: 100vh;
   }
 
-  .side-bar ul li{
-    
+  .side-bar ul li a{
+    text-decoration: none;
+    color: var(--main-color);
   }
   .side-bar ul li{
     padding: 10px;

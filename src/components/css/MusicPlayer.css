@@ -47,4 +47,8 @@ transform: rotateY(180deg);
 }
 .music-player .Music-player-controls input[type="range"]:first-child{
     width: 100%;
+    
 }
+
+
+

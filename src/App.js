@@ -5,6 +5,7 @@ import Home from "./Pages/Home";
 import MusicPlayer from "./components/MusicPlayer";
 import Sidebar from "./components/Sidebar";
 import MyLikes from './Pages/MyLikes';
+import CreatePlayList from './Pages/createPlayList';
 function App() {
   return (
     <div className="App">
@@ -12,13 +13,14 @@ function App() {
       <div className="Home">
         <div className="container-fluid">
           <div className="row">
-            <div className="aside col-4">
+            <div className="aside col-3">
               <Sidebar />
             </div>
-            <main className="music-main-section col-8">
+            <main className="music-main-section col-9">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/Likes" element={<MyLikes />} />
+              <Route path="/createPlayList" element={<CreatePlayList />} />
             </Routes>
             </main>
           </div>
