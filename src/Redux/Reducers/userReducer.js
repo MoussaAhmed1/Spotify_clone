@@ -4,7 +4,10 @@ const init = {
     img:null,
     musicLists:{},
     likes:[],
-    playlists:[{id:0,name:"AtHome",songs:[]}]
+    playlists:[
+        {id:0,name:"AtHome",songs:[]},
+        {id:1,name:"AtWork",songs:[]}
+    ]
 }
 
 const userReducer = (state=init,action)=>{

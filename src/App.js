@@ -6,6 +6,7 @@ import MusicPlayer from "./components/MusicPlayer";
 import Sidebar from "./components/Sidebar";
 import MyLikes from './Pages/MyLikes';
 import CreatePlayList from './Pages/createPlayList';
+import Playlist from "./Pages/Playlist";
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/Likes" element={<MyLikes />} />
               <Route path="/createPlayList" element={<CreatePlayList />} />
+              <Route path="/createPlayList/:id" element={<CreatePlayList />}/>
             </Routes>
             </main>
           </div>
